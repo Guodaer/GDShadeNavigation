@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B8F002991C5217AF004D1C3D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B8F002981C5217AF004D1C3D /* main.m */; };
+		B8F0029C1C5217AF004D1C3D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B8F0029B1C5217AF004D1C3D /* AppDelegate.m */; };
+		B8F0029F1C5217AF004D1C3D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8F0029E1C5217AF004D1C3D /* ViewController.m */; };
+		B8F002A21C5217AF004D1C3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8F002A01C5217AF004D1C3D /* Main.storyboard */; };
+		B8F002A41C5217AF004D1C3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8F002A31C5217AF004D1C3D /* Assets.xcassets */; };
+		B8F002A71C5217AF004D1C3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8F002A51C5217AF004D1C3D /* LaunchScreen.storyboard */; };
+		B8F002B21C5217AF004D1C3D /* GDShadeNavigationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B8F002B11C5217AF004D1C3D /* GDShadeNavigationTests.m */; };
+		B8F002BD1C5217AF004D1C3D /* GDShadeNavigationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B8F002BC1C5217AF004D1C3D /* GDShadeNavigationUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B8F002AE1C5217AF004D1C3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8F0028C1C5217AE004D1C3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8F002931C5217AF004D1C3D;
+			remoteInfo = GDShadeNavigation;
+		};
+		B8F002B91C5217AF004D1C3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8F0028C1C5217AE004D1C3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8F002931C5217AF004D1C3D;
+			remoteInfo = GDShadeNavigation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B8F002941C5217AF004D1C3D /* GDShadeNavigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GDShadeNavigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8F002981C5217AF004D1C3D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B8F0029A1C5217AF004D1C3D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B8F0029B1C5217AF004D1C3D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B8F0029D1C5217AF004D1C3D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B8F0029E1C5217AF004D1C3D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B8F002A11C5217AF004D1C3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B8F002A31C5217AF004D1C3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B8F002A61C5217AF004D1C3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B8F002A81C5217AF004D1C3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8F002AD1C5217AF004D1C3D /* GDShadeNavigationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GDShadeNavigationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8F002B11C5217AF004D1C3D /* GDShadeNavigationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GDShadeNavigationTests.m; sourceTree = "<group>"; };
+		B8F002B31C5217AF004D1C3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8F002B81C5217AF004D1C3D /* GDShadeNavigationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GDShadeNavigationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8F002BC1C5217AF004D1C3D /* GDShadeNavigationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GDShadeNavigationUITests.m; sourceTree = "<group>"; };
+		B8F002BE1C5217AF004D1C3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B8F002911C5217AF004D1C3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8F002AA1C5217AF004D1C3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8F002B51C5217AF004D1C3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B8F0028B1C5217AE004D1C3D = {
+			isa = PBXGroup;
+			children = (
+				B8F002961C5217AF004D1C3D /* GDShadeNavigation */,
+				B8F002B01C5217AF004D1C3D /* GDShadeNavigationTests */,
+				B8F002BB1C5217AF004D1C3D /* GDShadeNavigationUITests */,
+				B8F002951C5217AF004D1C3D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B8F002951C5217AF004D1C3D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B8F002941C5217AF004D1C3D /* GDShadeNavigation.app */,
+				B8F002AD1C5217AF004D1C3D /* GDShadeNavigationTests.xctest */,
+				B8F002B81C5217AF004D1C3D /* GDShadeNavigationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B8F002961C5217AF004D1C3D /* GDShadeNavigation */ = {
+			isa = PBXGroup;
+			children = (
+				B8F0029A1C5217AF004D1C3D /* AppDelegate.h */,
+				B8F0029B1C5217AF004D1C3D /* AppDelegate.m */,
+				B8F0029D1C5217AF004D1C3D /* ViewController.h */,
+				B8F0029E1C5217AF004D1C3D /* ViewController.m */,
+				B8F002A01C5217AF004D1C3D /* Main.storyboard */,
+				B8F002A31C5217AF004D1C3D /* Assets.xcassets */,
+				B8F002A51C5217AF004D1C3D /* LaunchScreen.storyboard */,
+				B8F002A81C5217AF004D1C3D /* Info.plist */,
+				B8F002971C5217AF004D1C3D /* Supporting Files */,
+			);
+			path = GDShadeNavigation;
+			sourceTree = "<group>";
+		};
+		B8F002971C5217AF004D1C3D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B8F002981C5217AF004D1C3D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B8F002B01C5217AF004D1C3D /* GDShadeNavigationTests */ = {
+			isa = PBXGroup;
+			children = (
+				B8F002B11C5217AF004D1C3D /* GDShadeNavigationTests.m */,
+				B8F002B31C5217AF004D1C3D /* Info.plist */,
+			);
+			path = GDShadeNavigationTests;
+			sourceTree = "<group>";
+		};
+		B8F002BB1C5217AF004D1C3D /* GDShadeNavigationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B8F002BC1C5217AF004D1C3D /* GDShadeNavigationUITests.m */,
+				B8F002BE1C5217AF004D1C3D /* Info.plist */,
+			);
+			path = GDShadeNavigationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B8F002931C5217AF004D1C3D /* GDShadeNavigation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8F002C11C5217AF004D1C3D /* Build configuration list for PBXNativeTarget "GDShadeNavigation" */;
+			buildPhases = (
+				B8F002901C5217AF004D1C3D /* Sources */,
+				B8F002911C5217AF004D1C3D /* Frameworks */,
+				B8F002921C5217AF004D1C3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GDShadeNavigation;
+			productName = GDShadeNavigation;
+			productReference = B8F002941C5217AF004D1C3D /* GDShadeNavigation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B8F002AC1C5217AF004D1C3D /* GDShadeNavigationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8F002C41C5217AF004D1C3D /* Build configuration list for PBXNativeTarget "GDShadeNavigationTests" */;
+			buildPhases = (
+				B8F002A91C5217AF004D1C3D /* Sources */,
+				B8F002AA1C5217AF004D1C3D /* Frameworks */,
+				B8F002AB1C5217AF004D1C3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B8F002AF1C5217AF004D1C3D /* PBXTargetDependency */,
+			);
+			name = GDShadeNavigationTests;
+			productName = GDShadeNavigationTests;
+			productReference = B8F002AD1C5217AF004D1C3D /* GDShadeNavigationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B8F002B71C5217AF004D1C3D /* GDShadeNavigationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8F002C71C5217AF004D1C3D /* Build configuration list for PBXNativeTarget "GDShadeNavigationUITests" */;
+			buildPhases = (
+				B8F002B41C5217AF004D1C3D /* Sources */,
+				B8F002B51C5217AF004D1C3D /* Frameworks */,
+				B8F002B61C5217AF004D1C3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B8F002BA1C5217AF004D1C3D /* PBXTargetDependency */,
+			);
+			name = GDShadeNavigationUITests;
+			productName = GDShadeNavigationUITests;
+			productReference = B8F002B81C5217AF004D1C3D /* GDShadeNavigationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B8F0028C1C5217AE004D1C3D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Guoda;
+				TargetAttributes = {
+					B8F002931C5217AF004D1C3D = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					B8F002AC1C5217AF004D1C3D = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = B8F002931C5217AF004D1C3D;
+					};
+					B8F002B71C5217AF004D1C3D = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = B8F002931C5217AF004D1C3D;
+					};
+				};
+			};
+			buildConfigurationList = B8F0028F1C5217AE004D1C3D /* Build configuration list for PBXProject "GDShadeNavigation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B8F0028B1C5217AE004D1C3D;
+			productRefGroup = B8F002951C5217AF004D1C3D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B8F002931C5217AF004D1C3D /* GDShadeNavigation */,
+				B8F002AC1C5217AF004D1C3D /* GDShadeNavigationTests */,
+				B8F002B71C5217AF004D1C3D /* GDShadeNavigationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B8F002921C5217AF004D1C3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8F002A71C5217AF004D1C3D /* LaunchScreen.storyboard in Resources */,
+				B8F002A41C5217AF004D1C3D /* Assets.xcassets in Resources */,
+				B8F002A21C5217AF004D1C3D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8F002AB1C5217AF004D1C3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8F002B61C5217AF004D1C3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B8F002901C5217AF004D1C3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8F0029F1C5217AF004D1C3D /* ViewController.m in Sources */,
+				B8F0029C1C5217AF004D1C3D /* AppDelegate.m in Sources */,
+				B8F002991C5217AF004D1C3D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8F002A91C5217AF004D1C3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8F002B21C5217AF004D1C3D /* GDShadeNavigationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8F002B41C5217AF004D1C3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8F002BD1C5217AF004D1C3D /* GDShadeNavigationUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B8F002AF1C5217AF004D1C3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B8F002931C5217AF004D1C3D /* GDShadeNavigation */;
+			targetProxy = B8F002AE1C5217AF004D1C3D /* PBXContainerItemProxy */;
+		};
+		B8F002BA1C5217AF004D1C3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B8F002931C5217AF004D1C3D /* GDShadeNavigation */;
+			targetProxy = B8F002B91C5217AF004D1C3D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B8F002A01C5217AF004D1C3D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8F002A11C5217AF004D1C3D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B8F002A51C5217AF004D1C3D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8F002A61C5217AF004D1C3D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B8F002BF1C5217AF004D1C3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B8F002C01C5217AF004D1C3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B8F002C21C5217AF004D1C3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GDShadeNavigation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.chaui.cn.GDShadeNavigation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B8F002C31C5217AF004D1C3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GDShadeNavigation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.chaui.cn.GDShadeNavigation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B8F002C51C5217AF004D1C3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GDShadeNavigationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.chaui.cn.GDShadeNavigationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GDShadeNavigation.app/GDShadeNavigation";
+			};
+			name = Debug;
+		};
+		B8F002C61C5217AF004D1C3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GDShadeNavigationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.chaui.cn.GDShadeNavigationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GDShadeNavigation.app/GDShadeNavigation";
+			};
+			name = Release;
+		};
+		B8F002C81C5217AF004D1C3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GDShadeNavigationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.chaui.cn.GDShadeNavigationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GDShadeNavigation;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B8F002C91C5217AF004D1C3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GDShadeNavigationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.chaui.cn.GDShadeNavigationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GDShadeNavigation;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B8F0028F1C5217AE004D1C3D /* Build configuration list for PBXProject "GDShadeNavigation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8F002BF1C5217AF004D1C3D /* Debug */,
+				B8F002C01C5217AF004D1C3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8F002C11C5217AF004D1C3D /* Build configuration list for PBXNativeTarget "GDShadeNavigation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8F002C21C5217AF004D1C3D /* Debug */,
+				B8F002C31C5217AF004D1C3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B8F002C41C5217AF004D1C3D /* Build configuration list for PBXNativeTarget "GDShadeNavigationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8F002C51C5217AF004D1C3D /* Debug */,
+				B8F002C61C5217AF004D1C3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B8F002C71C5217AF004D1C3D /* Build configuration list for PBXNativeTarget "GDShadeNavigationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8F002C81C5217AF004D1C3D /* Debug */,
+				B8F002C91C5217AF004D1C3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B8F0028C1C5217AE004D1C3D /* Project object */;
+}
