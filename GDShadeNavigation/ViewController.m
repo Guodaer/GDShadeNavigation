@@ -153,15 +153,15 @@
         // [self.navigationController setNavigationBarHidden:YES animated:NO];
         [view_bar setHidden:YES];
         
-    }else if(mainTableView.contentOffset.y<700){
+    }else if(mainTableView.contentOffset.y<180){
         [view_bar setHidden:NO];
         
-        view_bar.backgroundColor=[UIColor colorWithRed:0.9 green:0 blue:0 alpha:mainTableView.contentOffset.y / 1000];
+        view_bar.backgroundColor=[UIColor colorWithRed:0.9 green:0 blue:0 alpha:mainTableView.contentOffset.y / 200];
     }else
     {
         [view_bar setHidden:NO];
         
-        view_bar.backgroundColor=[UIColor colorWithRed:0.9 green:0 blue:0 alpha:0.7];
+        view_bar.backgroundColor=[UIColor colorWithRed:0.9 green:0 blue:0 alpha:0.9];
     }
     
 }
